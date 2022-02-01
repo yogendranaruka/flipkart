@@ -192,6 +192,7 @@ ul li{
     height: 300px;
     margin-top: 1%;
     text-align: center;
+    cursor: pointer;
 }
 .b2 .gray{
     margin-bottom: 2%;
