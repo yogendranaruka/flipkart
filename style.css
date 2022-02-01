@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,Arial,sans-serif;
+}
+#plus{
+    color: yellow;
+}
+body{
+    background-color: #f0f0f0 !important;
+    overflow-x: hidden;
+}
+
+#ulbox{
+    z-index: 100;
+    width: 250px;
+    position: absolute;
+    top: 58px;
+    right: 10%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    display: none;
+    background-color: white;
+   
+}
+#loginulbox{
+    z-index: 100;
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    top: 58px;
+    right: 20%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    display: none;
+}
+
+#ulbox .div,#loginulbox .div{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+    width: 100%;
+    display: block;
+    line-height: 50px;
+    font-size: 85%;
+}
+#ulbox .div a, #loginulbox .div a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+#ulbox .div .fas,#loginulbox .div .fas{
+    color: #2874f0;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.nav{
+    background-color: #2874f0;
+    height: 60px;
+    width: 100%;
+    user-select: none;
+}
+.button, span, i{
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+}
+.nav ul li img{
+    height: 20px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+}
+.navitems{
+    display: flex;
+}
+.logo span{
+    font-size: 12px;
+    font-weight: bold;
+}
+#navinput{
+    width: 40vw;
+    height: 38px;
+    border-radius: 2px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    margin-top: 11px;
+}
+
+#login{
+    padding: 0px 45px;
+    height: 32px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #2874f0;
+    font-weight: bolder;
+    position: absolute;
+    top: 14px;
+    right: 23%;
+  
+}
+.search{
+    position: relative;
+    margin-left: 135-px;
+}
+.navlogo{
+    margin-left: 10%;
+    margin-top: 6px;
+    width: 130px;
+    height: 40px;
+}
+.logo #exp{
+    color: white;
+}
+.search i{
+    position: absolute;
+    right: 3%;
+    top: 40%;
+    color: #2874f0;
+    font-size: 20px;
+    cursor: pointer;
+}
+#navmore{
+    color: white;
+    /* font-size: 20px; */
+    font-weight: bolder;
+
+}
+.fa-chevron-down, .fa-chevron-up{
+    position: absolute;
+    right: 0%;
+    font-size: 60%;
+    color: white;
+}
+.fa-chevron-up{
+    display: none;
+}
+.cart span, i{
+    color: white;
+    font-weight: bolder;
+}
+.cart{
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    line-height: 60px;
+}
+
+.navmore{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 17%;
+    line-height: 60px;
+}
+
+.navright{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+.row2, .row3{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    height: 300px;
+}
+
+.boxcat1, .boxcat1 .b1{
+    width: 7vw;
+    height: 100px;
+    margin-top: 1%;
+}
+.b2{
+    width: 14vw;
+    height: 300px;
+    margin-top: 1%;
+    text-align: center;
+}
+.b2 .gray{
+    margin-bottom: 2%;
+    font-size: 90%;
+    font-weight: 500;
+    color: gray;
+}
+.b2 .green{
+    font-size: 90%;
+    font-weight: 600;
+    color: rgb(75, 181, 75);
+}
+.b2 .pmain{
+    font-weight: 700;
+}
+
+
+.boxcat1:first-child{
+    margin-left: 5vw;
+}
+.boxcat1:last-child{
+    margin-right: 5vw;
+}
+.boxcat1 img{
+    width: 80%;
+    height: 60% !important;
+    background-image: contain;
+    user-select: none;
+}
+.boxcat2 img{
+    margin-top: 5%;
+    width: 80%;
+    height: 60% !important;
+    background-image: contain;
+    user-select: none;
+    margin-bottom: 10%;
+}
+.boxcat1 p{
+    font-weight: 600;
+    font-size: 80%;
+    user-select: none;
+
+}
+.boxcat1 .b1{
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+#myCarousel .carousel-inner .item img{
+    height: 35vh;
+    width: 99%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+#myCarousel{
+    margin-top: .5%;
+}
+.heading{
+    background-color: white;
+    width: 100%;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, .2);
+    user-select: none;
+    margin-bottom: -.8%;
+}
+.heading h3{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 3%;
+    user-select: none;
+    font-weight: 530;
+}
+
+
